@@ -5,11 +5,11 @@
     <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
     <meta charset="UTF-8" />
     <meta name="author" content="Marco La Valle" />
-    <meta name="description" content="Template HTML" />
+    <meta name="description" content="Localhost, Loopback and much more" />
     <meta name="keywords" content="localhost, loopback, name resolution," />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
-    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+    <title>Localhost, Loopback and much more</title><!-- titolo della pagina -->
     <style>
       body {background-color: powderblue;}
       h1 {color: rgb(255, 0, 0);}
@@ -18,9 +18,9 @@
 <body><!-- Corpo principale della pagina HTML-->
         <h1 id="titolo">Localhost, Loopback and much more</h1>
         <h4 style="color:blue;">localhost</h4>
-        <p>In <a href="https://www.ibm.com/it-it/topics/networking" target="_blank">computer networking,</a>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.</p>
+        <div style="background-color:blue; color: white"><p>In <a href="https://www.ibm.com/it-it/topics/networking" target="_blank" style="color: white">computer networking,</a>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.</p></div>
         <h4 style="color:red;">Loopback</h4>
-        <p>The local loopback mechanism may be used to run a network service on a <a href="https://it.wikipedia.org/wiki/Host" target="_blank">host</a> without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
+        <p>The local loopback mechanism may be used to run a network service on a <a href="https://it.wikipedia.org/wiki/Host" target="_blank">host</a> without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL <a href="http://localhost" target="_blank">http://localhost</a> to display its home page.
             The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.</p>
         <h4 style="color:green;">Name resolution</h4>
         <p>IPv4 network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
@@ -36,9 +36,9 @@
         <h4 style="color:blue;">IETF standards</h4>
         <p>The name localhost is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:
 
-            An IPv4 or IPv6 address query for the name localhost must always resolve to the respective <a href="https://www.sciencedirect.com/topics/computer-science/loopback-address#:~:text=A%20Loopback%20Address%2C%20also%20known,0%3A1%20or%20%3A%3A1." target="_blank">loopback address</a>, which is specified in a separate standard.
+            <div style="background-color:blue; color: white">An IPv4 or IPv6 address query for the name localhost must always resolve to the respective <a href="https://www.sciencedirect.com/topics/computer-science/loopback-address#:~:text=A%20Loopback%20Address%2C%20also%20known,0%3A1%20or%20%3A%3A1." target="_blank" style="color: white">loopback address</a>, which is specified in a separate standard.</div>
             Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
-            <div style="background-color:blue;">When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.</div>
+            When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
             To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
             DNS registrars are precluded from delegating domain names in the top-level domain localhost.
             When authoritative name servers receive queries for 'localhost' in spite of the prov        isions mentioned resolve them appropriately.
