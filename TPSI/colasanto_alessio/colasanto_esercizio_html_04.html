@@ -32,7 +32,7 @@
              <h2>IETF standards</h2>   
              <p>The name localhost is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:
 
-                An IPv4 or IPv6 address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard.
+                An IPv4 or IPv6 address query for the name localhost must always <b>resolve</b> to the respective loopback address, which is specified in a separate standard.
                 Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
                 When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
                 To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
