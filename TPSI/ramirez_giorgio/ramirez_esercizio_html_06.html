@@ -36,15 +36,15 @@
 
 </head>
 <body>
-    TESTO TRATTO DA <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank">Wikipedia</a><br>
+    TESTO TRATTO DA <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank"><cite>Wikipedia</cite> </a><br>
   
 <h2 style="color: rgb(0, 4, 255);"><strong>localhost</strong> </h2><br>
-<p>In <b><em><mark>computer networking</mark> </em> </b>, localhost is a <del>name</del> <ins ><em>hostname</em> </ins> that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware. </p><br>
+<p>In <b><em><mark><q>computer networking</q> </mark> </em> </b>, localhost is a <del>name</del> <ins ><em>hostname</em> </ins> that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware. </p><br>
 <h2 style="color: rgb(0, 255, 55);"><strong>Loopback</strong> </h2> <br>
 <a href="https://en.wikipedia.org/wiki/Loopback" target="_blank">
     <img src="https://phoenixnap.com/kb/wp-content/uploads/2022/02/how-does-loopback-work.png" width="250" alt="loopback"/>
     </a>
-<p>The <del>remote</del> <ins><b><em><mark>local loopback</mark> </em> </b></ins>  mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the <sub> URL</sub> http://localhost to display its home page. <br>
+<p>The <del>remote</del> <ins><b><em><mark><q>local loopback</q> </mark> </em> </b></ins>  mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the <sub> URL</sub> http://localhost to display its home page. <br>
 The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1. </p><br>
 <br>
 <h2  style="color: rgb(255, 0, 0);"><strong>Name resolution </strong> </h2><br>
@@ -54,14 +54,14 @@ The resolution of the name localhost to one or more IP addresses is normally con
 <blockquote >127.0.0.1    localhost <br>
 ::1          localhost <br></blockquote> 
 <br>
-The name may also be resolved by Domain Name System (DNS) servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers. <br>
+The name may also be resolved by <abbr title="Domain Name System">DNS </abbr> (Domain Name System) servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers. <br>
 <br>
 In addition to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally. <br>
 <br>
-In the Domain Name System, the name localhost is reserved as a top-level domain name, originally set aside to avoid confusion with the hostname used for loopback purposes.<sup>[3] </sup> IETF standards prohibit domain name registrars from assigning the name localhost. <br>
+In the Domain Name System, the name localhost is reserved as a top-level domain name, originally set aside to avoid confusion with the hostname used for loopback purposes.<sup>[3] </sup> <abbr title="Internet Engineering Task Force">IETF </abbr> standards prohibit domain name registrars from assigning the name localhost. <br>
 <br></p>
 <h2 style="color: rgb(0, 4, 255);"><strong>Standards </strong> </h2><br>
-<p>The name <b><em><mark> localhost</mark> </em> </b> is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System: <br>
+<p>The name <b><em><mark><q>localhost</q> </mark> </em> </b> is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System: <br>
 <br>
 An IPv4 or IPv6 address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard.<br>
 Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.<br>
@@ -84,6 +84,6 @@ In contrast, the IETF "<mark>IP Version 6 Addressing Architecture</mark> " stand
 <br><h2><strong> Special cases</strong> </h2><br>
 <p style="border-style: inset;border-color:#6b6868; border-width:10px; width:5000x; height:40x">The releases of the MySQL database <b>differentiate</b> between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a <del>Linux</del> <ins>Unix</ins>  domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.<br></p>
 
-<p style="border-style: inset;border-color:#6b6868; border-width:10px; width:5000x; height:40x">One notable exception to the use of the 127.0.0.0/8 addresses is their use in Multiprotocol Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.<br></p>
+<p style="border-style: inset;border-color:#6b6868; border-width:10px; width:5000x; height:40x">One notable exception to the use of the 127.0.0.0/8 addresses is their use in <abbr title="Multiprotocol Label Switching">MPLS</abbr>  (Multiprotocol Label Switching) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.<br></p>
 </body>
 </html>
