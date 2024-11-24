@@ -12,7 +12,11 @@
         <h2><a href="https://en.wikipedia.org/wiki/Loopback"><img src="https://optimise2.assets-servd.host/humorous-skink/production/loopback-blog-header.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1696233006&s=111accf0f6ed00381f0f73f02dbb7841" width="250" alt="loopback"/></a></h2>
         <p>The local loopback mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page. <br />
             The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
-        
+            valore 1 <meter min="0" max="100" value="90">90 su 100</meter><br />
+            valore 2 <meter min="0" max="100" value="35">35 su 100</meter><br />
+            valore 3 <meter min="0" max="100" value="9">9 su 100</meter><br />
+            valore 4 <meter min="0" max="100" value="45">45 su 100</meter><br />
+            valore 5 <meter min="0" max="100" value="15">15 su 100</meter><br />
         </p>
         
         <h2>Name resolution</h2>
@@ -44,6 +48,11 @@
         <p><div style="color:white; background-color:blue;">In contrast, the IETF <i>"IP Version 6</i> <b>Addressing</b> Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 <mark>address</mark> space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it. </div></p>        
   
         <h3>Packet processing</h3>
+        Alice <progress min="0" max="10" value="7.5">7.5 di 10</progress><br />
+        Marco <progress min="0" max="10" value="8.0">8 di 10</progress><br />
+        Giulia <progress min="0" max="10" value="9.0">9 di 10</progress><br />
+        Luca <progress min="0" max="10" value="5.0">5 di 10</progress><br />
+        Giovanni <progress min="0" max="10" value="5.7">5.7 di 10</progress><br />
         <p>The <strong>processing</strong> of any packet sent to a  <strong>loopback</strong> address, is implemented in the link layer of the TCP/IP stack. Such packets <ins>are never passed </ins>to any network <mark>interface</mark> controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.</p>
         
         <p>Looped-back packets are distinguished <b>from any other packets traversing</b> the <s>TCP/IP</s> stack only by the <cite>special IP</cite> address they were addressed to. Thus, the services <mark>that ultimately receive them respond according</mark> to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.</p>
