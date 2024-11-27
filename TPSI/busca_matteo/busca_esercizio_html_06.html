@@ -16,7 +16,7 @@
     <a href="https://en.wikipedia.org/wiki/Loopback" target="_blank">link argomento</a>
     <p><small>The local loopback </small> mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to.
         For example, a locally installed website may be accessed from a Web browser by the URL to display its home page.
-        The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, <i>and to the IPv6 loopback address</i> ::1.</p>
+        The name localhost normally resolves to the <u>IPv4</u> loopback address <u>127.0.0.1,</u> <i>and to the IPv6 loopback address</i> ::1.</p>
         <img src="https://miro.medium.com/v2/resize:fit:1400/1*o3hockHuMfRuboY6-kwf8g.jpeg" width="250" alt="loop back"/>
 
         <mark><b><strong><em>Name resolution</em></strong></b></mark>
@@ -40,11 +40,11 @@
     <p><small>The name localhost </small>is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names), which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:</p>
     <p>An <abbr>IPv4 </abbr>or <abbr>IPv6</abbr>  address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard.
         Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
-        When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.</p>
+        When a name resolver receives an address <u>(A or AAAA)</u> query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.</p>
     <p>To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
         <q>DNS registrars are precluded from delegating domain names in the top-level domain localhost.</q>
         When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned, they should resolve them appropriately.
-        The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735). The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).</p>
+        The IPv4 loopback addresses are reserved within the <u>IPv4</u> address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735). The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).</p>
     <p>In contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed,<i>and should be dropped by all routers or hosts that receive it.</i></p>
 
     <mark><b><strong><em>packet processing</em></strong></b></mark>
@@ -56,6 +56,6 @@
     <mark><b><strong><em>special case</em></strong></b></mark>
     <a href="https://en.wikipedia.org/wiki/Special_cases" target="_blank">link argomento</a>
     <p><small>The releases of the MySQL</small> database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1. When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.</p>
-    <p>One notable exception to the use of the 127.0.0.0/8 addresses is their use in Multiprotocol Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to <i>avoid delivery of faulty packets to end users.</i></p>
+    <p>One notable exception to the use of the <u>127.0.0.0/8</u> addresses is their use in Multiprotocol Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to <i>avoid delivery of faulty packets to end users.</i></p>
 </body>
 </html>
