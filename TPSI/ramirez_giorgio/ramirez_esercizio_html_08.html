@@ -76,7 +76,7 @@ In contrast, the IETF "<mark>IP Version 6 Addressing Architecture</mark> " stand
 <br><hr>
 <h2  style="color: rgb(255, 0, 0);"><strong><u>Packet processing</u>  </strong> </h2>
 <br>
-<img src="/home/giorgio.ramirezcalzada@agnelli.priv/3INFO_2425_ser/TPSI/ramirez_giorgio/images/packet_processing.png" width="500" alt="_blank"/>
+<img src="images/packet_processing.png" width="500" alt="_blank"/>
 <p>The processing of any packet sent to a <del><s>random</s> </del> <b><em><mark><ins>loopback </ins> address</mark> </em> </b>, is implemented in the link layer of the TCP/IP stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces. </p><br>
 
 <p>Looped-back packets are distinguished from any other packets traversing the TCP/IP stack only by the special IP address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address. </p><br>
