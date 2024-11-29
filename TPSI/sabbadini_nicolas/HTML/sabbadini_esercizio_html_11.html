@@ -1,99 +1,83 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta name="author" content="Sabbadini Nicolas">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menù Ristorante</title>
-    <style>
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            font-family: Arial, sans-serif;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        caption {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .price {
-            text-align: right;
-        }
-    </style>
 </head>
-<body>
-    <table>
-        <caption>Antipasti</caption>
-        <tr>
-            <th>Piatti</th>
-            <th>Prezzo</th>
-        </tr>
-        <tr><td>Bruschetta bianca</td><td class="price">€ 1,00</td></tr>
-        <tr><td>Bruschetta al pomodoro</td><td class="price">€ 1,50</td></tr>
-        <tr><td>Bruschetta al tartufo</td><td class="price">€ 2,00</td></tr>
-        <tr><td>Prosciutto</td><td class="price">€ 5,00</td></tr>
-        <tr><td>Italiana</td><td class="price">€ 7,00</td></tr>
-        <tr><td>Prosciutto e Mozzarella di bufala</td><td class="price">€ 7,50</td></tr>
-        <tr><td>"Le Cannucceta"</td><td class="price">€ 8,50</td></tr>
-        <tr><td>Vegetariano</td><td class="price">€ 7,00</td></tr>
-        <tr><td>Tagliere di Formaggi</td><td class="price">€ 7,50</td></tr>
-        <tr><td>Max Tagliere di Formaggi e salumi (per due persone)</td><td class="price">€ 18,00</td></tr>
-        <tr><td>Prosciutto e melone</td><td class="price">€ 7,50</td></tr>
-    </table>
+<body style="font-family: Arial, sans-serif; background-color: #f7e8b5; color: #000; margin: 20px; padding: 20px;">
+    <h1 style="text-align: center; color: #8b0000;">MENÙ RISTORANTE</h1>
+    
+    <h2 style="color: #8b0000;">ANTIPASTO</h2>
+        <li>Bruschetta bianca - <span style="float: right;">€ 1,00</span></li>
+        <li>Bruschetta al pomodoro - <span style="float: right;">€ 1,50</span></li>
+        <li>Bruschetta al tartufo - <span style="float: right;">€ 2,00</span></li>
+        <li>Prosciutto - <span style="float: right;">€ 5,00</span></li>
+        <li>Italiana - <span style="float: right;">€ 7,00</span></li>
+        <li>Prosciutto e Mozzarella di bufala - <span style="float: right;">€ 7,50</span></li>
+        <li>“Le Cannucceta” - <span style="float: right;">€ 8,50</span></li>
+        <li>Vegetariano - <span style="float: right;">€ 7,00</span></li>
+        <li>Tagliere di Formaggi - <span style="float: right;">€ 7,50</span></li>
+        <li>
+            Max Tagliere di Formaggi e salumi - <span style="float: right;">€ 18,00</span>
+            <small>(per due persone)</small>
+        </li>
+        <li>Prosciutto e melone - <span style="float: right;">€ 7,50</span></li>
+    </ul>
 
-    <table>
-        <caption>Primi Piatti</caption>
-        <tr>
-            <th>Piatti</th>
-            <th>Prezzo</th>
-        </tr>
-        <tr><td>Fettuccine al pomodoro</td><td class="price">€ 6,50</td></tr>
-        <tr><td>Raviolini in salsa rosa</td><td class="price">€ 7,50</td></tr>
-        <tr><td>Gnocchi verdi in salsa rosa</td><td class="price">€ 7,50</td></tr>
-        <tr><td>Fettuccine ai funghi porcini</td><td class="price">€ 8,00</td></tr>
-        <tr><td>Gnocchetti al cinghiale</td><td class="price">€ 7,50</td></tr>
-        <tr><td>Gnocchi di patate al tartufo</td><td class="price">€ 8,00</td></tr>
-        <tr><td>Pici al tartufo</td><td class="price">€ 8,00</td></tr>
-        <tr><td>Fagottini al tartufo</td><td class="price">€ 8,00</td></tr>
-        <tr><td>Ass. Doppio (ravioli e fettuccine ai funghi porcini)</td><td class="price">€ 8,50</td></tr>
-        <tr><td>Fettuccine porcini e tartufo</td><td class="price">€ 8,50</td></tr>
-    </table>
-    <table>
-        <caption>Secondi Piatti</caption>
-        <tr>
-            <th>Piatti</th>
-            <th>Prezzo</th>
-        </tr>
-        <tr><td>Caprese (mozzarella di bufala, pomodoro)</td><td class="price">€ 8,00</td></tr>
-        <tr><td>Salsicce porzione</td><td class="price">€ 7,50</td></tr>
-        <tr><td>Braciole di maiale</td><td class="price">€ 7,50</td></tr>
-        <tr><td>Lombata di vitella</td><td class="price">€ 12,00</td></tr>
-        <tr><td>Bistecca di manzo porzione</td><td class="price">€ 13,00</td></tr>
-        <tr><td>Bistecca di maiale a peso</td><td class="price">€ 3,50 l'etto</td></tr>
-        <tr><td>Fiorentina</td><td class="price">€ 20,00</td></tr>
-        <tr><td>Angus (manzo argentino) porzione</td><td class="price">€ 13,00</td></tr>
-        <tr><td>Bisonti canadese porzione</td><td class="price">€ 15,00</td></tr>
-        <tr><td>Tagliata di Angus con rucola e aceto balsamico</td><td class="price">€ 14,00</td></tr>
-        <tr><td>Cotoletta e patate</td><td class="price">€ 7,50</td></tr>
-    </table>
+    <h2 style="color: #8b0000;">PRIMI PIATTI</h2>
+        <li>Fettuccine al pomodoro - <span style="float: right;">€ 6,50</span></li>
+        <li>Raviolini in salsa rosa - <span style="float: right;">€ 7,50</span></li>
+        <li>Gnocchi verdi in salsa rosa - <span style="float: right;">€ 7,50</span></li>
+        <li>Fettuccine ai funghi porcini - <span style="float: right;">€ 8,00</span></li>
+        <li>Gnocchetti al cinghiale - <span style="float: right;">€ 8,00</span></li>
+        <li>Gnocchi di patate al tartufo - <span style="float: right;">€ 8,00</span></li>
+        <li>Pici al tartufo - <span style="float: right;">€ 8,00</span></li>
+        <li>Fagottini al tartufo - <span style="float: right;">€ 8,00</span></li>
+        <li>
+            Ass. Doppio <small>(ravioli e fettuccine ai funghi porcini)</small> - <span style="float: right;">€ 8,50</span>
+        </li>
+        <li>Fettuccine porcini e tartufo - <span style="float: right;">€ 8,50</span></li>
+    </ul>
 
-    <table>
-        <caption>Contorni</caption>
-        <tr>
-            <th>Piatti</th>
-            <th>Prezzo</th>
-        </tr>
-        <tr><td>Insalata</td><td class="price">€ 3,50</td></tr>
-        <tr><td>Patate</td><td class="price">€ 3,50</td></tr>
-        <tr><td>Cicoria</td><td class="price">€ 3,50</td></tr>
-        <tr><td>Rucchetta con pomodori</td><td class="price">€ 3,50</td></tr>
-    </table>
+    <h2 style="color: #8b0000;">SECONDI PIATTI</h2>
+        <li>Caprese (mozzarella di bufala, pomodoro) - <span style="float: right;">€ 8,00</span></li>
+        <li>Salsicce porzione - <span style="float: right;">€ 7,50</span></li>
+        <li>Braciole di maiale - <span style="float: right;">€ 8,00</span></li>
+        <li>Lombata di vitella - <span style="float: right;">€ 12,00</span></li>
+        <li>Bistecca di manzo porzione - <span style="float: right;">€ 13,00</span></li>
+        <li>
+            Bistecca di manzo a peso - <span style="float: right;">€ 3,50</span>
+            <small>l’etto</small>
+        </li>
+        <li>Fiorentina - <span style="float: right;">€ 20,00</span></li>
+        <li>Angus (manzo argentino) porzione - <span style="float: right;">€ 13,00</span></li>
+        <li>
+            Angus a peso - <span style="float: right;">€ 4,00</span>
+        <small>l’etto</small>
+        </li>
+        <li>Bisonte canadese porzione - <span style="float: right;">€ 15,00</span></li>
+        <li>
+            Bisonte canadese a peso - <span style="float: right;">€ 5,00</span>
+            <small>l’etto</small>
+        </li>
+        <li>Abbacchio scottadito - <span style="float: right;">€ 15,00</span></li>
+        <li>Misto carne - <span style="float: right;">€ 10,00</span></li>
+        <li>Filetto - <span style="float: right;">€ 15,00</span></li>
+        <li>Scamorza - <span style="float: right;">€ 8,00</span></li>
+        <li>Tagliata di Angus con ruchetta e aceto balsamico - <span style="float: right;">€ 12,00</span></li>
+        <li>Tagliata di Angus con funghi porcini - <span style="float: right;">€ 15,00</span></li>
+        <li>Bistecca Tomahawk - <span style="float: right;">€ 27,00</span></li>
+        <li>Cotoletta e patate - <span style="float: right;">€ 7,50</span></li>
+        <li>Bistecca Sashi - <span style="float: right;">€ 28,00</span></li>
+    </ul>
+
+    <h2 style="color: #8b0000;">CONTORNI</h2>
+        <li>Insalata - <span style="float: right;">€ 3,50</span></li>
+        <li>Patate - <span style="float: right;">€ 3,50</span></li>
+        <li>Cicoria - <span style="float: right;">€ 3,50</span></li>
+        <li>Ruchetta con pomodori - <span style="float: right;">€ 3,50</span></li>
+    </ul>
 </body>
 </html>
+
