@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <meta name="author" content="Lorenzo Ruscica" />
+    <meta name="description" content="Esercitazione 13" />
+    <meta name="keywords" content="Form"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+</head>
+<body>
+    <table border="1">
+    <form>
+        <tr>
+        <td><h3>Login</h3></td>
+        </tr>
+        <tr>
+        <td><label for="idnome">Nome:</label>
+        <input type="text" size="50" maxlength="50" id="nome" name="nome" placeholder="nome"><br><br></td>
+        <label for="idcognome">Cognome: </label>
+        <input type="text" maxlength="50" size="50" id="Cognome" name="cognome" placeholder="cognome"><br><br>
+        <label for="idnome">Cap: </label>
+        <input type="text" size="20" maxlength="20" id="nome" name="cap" placeholder="cap"><br><br>
+        </tr>
+        <h3>sesso</h3>
+        <input type="radio" id="maschio" name="sesso" value="maschio">
+        <label for="maschio">  maschio</label><br>
+        <input type="radio" id="femmina" name="sesso" value="femmina">
+        <label for="femmina">  femmina</label><br>
+        <input type="radio" id="altro" name="sesso" value="altro">
+        <label for="altro">  altro</label><br>
+        <hr>
+        <h3>Selezionare l'impiego</h3>
+        <input type="checkbox" id="studente" name="scelta" value="studente">
+        <label for="studente">  Studente</label><br>
+        <input type="checkbox" id="lavoratore" name="scelta" value="lavoratore">
+        <label for="lavoratore">  lavoratore</label><br>
+        <hr>
+        <label for="description">Descrizione del lavoro svolto: </label>
+        <textarea id="description" name="bio" rows="4" cols="40" size="20" placeholder="Inserisci la descrizione del tuo lavoro svolto"></textarea>
+        <hr>
+        <h3>Ateneo</h3>
+            <label for="university">selezionare l'università: </label>
+              <select name="Università" id="university">
+                  <option value="Italiano">Italiano</option>
+                  <option value="storia">Storia</option>
+                  <option value="Italiano">Scienze</option>
+                  <option value="storia">Matematica</option>
+              </select>
+              <hr>
+        <h3>Tasti funzione</h3>
+        <input type="submit"><br><br>
+        <input type="reset">
+  </table>
+        </form>
+</body>
