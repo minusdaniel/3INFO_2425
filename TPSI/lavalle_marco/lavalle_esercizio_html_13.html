@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  
+    <meta charset="UTF-8" />
+    <meta name="author" content="Marco La Valle" />
+    <meta name="description" content="esercitazione 12" />
+    <meta name="keywords" content="Form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Form</title>
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: rgb(255, 0, 0);}
+    </style>
+</head>
+<body>
+    <form>
+        <center><table border="1">
+            <tbody>
+                <tr><h3>Autenticazione</h3></tr>
+                <tr>
+                    <td align="right"><label for="idnome">Nome: </label></td> <td><input type="text" size="50" maxlength="50" id="idnome" name="nome" placeholder="Nome"></td>
+                </tr>
+                
+                <tr>
+                    <td align="right"><label for="idcognome">Cognome: </label></td> <td><input type="text" size="50" maxlength="50" id="idcognome" name="cognnome" placeholder="Cognome"></td>
+                </tr>
+
+
+
+
+
+                <tr>
+                    <td align="right"><label for="iddata"> inserira la tua dsata di nascita</label></td> <td><input type="date" id="iddata" name="birthday"></td>
+                </tr>
+
+
+                
+
+                <tr>
+                    <td align="right"><label for="idcap">CAP: </label></td> <td><input type="text" size="5" maxlength="5" id="idcap" name="cap" placeholder="CAP"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="cars">Università:  </label></td> <td><select name="Università" id="Università">
+                <option value="maschio">dialettica</option>
+                <option value="femmina">letteratura</option>
+                <option value="femmina">storia</option>
+                </select></td>
+                </tr>
+
+                <tr>
+                    <td align="right">sesso</td> <td><input type="radio" id="maschio" name="sesso" value="maschio">
+                        <label for="maschio"> maschio</label><br>
+                        <input type="radio" id="laureato" name="sesso" value="femmina">
+                        <label for="femmina"> femmina</label></td>
+                </tr>
+
+                <tr>
+                    <td align="right"> </td> <td> </td>
+                </tr>
+
+
+                <hr>
+
+                
+                
+                
+                
+                <hr>
+
+                <h3>sesso</h3>
+                <input type="radio" id="maschio" name="sesso" value="maschio">
+                <label for="maschio"> maschio</label><br>
+                <input type="radio" id="laureato" name="sesso" value="femmina">
+                <label for="femmina"> femmina</label><br>
+
+                <hr>
+
+                <h3>occupazione</h3>
+                <input type="checkbox" id="studente" name="occupazione" value="studente">
+                <label for="studente">  studente</label><br>
+                <input type="checkbox" id="lavoratore" name="occupazione" value="lavoratore">
+                <label for="lavoratore">  lavoratore</label><br>
+
+                <hr>
+
+                <h3>reset</h3>
+                <input type="reset">
+                <hr>
+
+                <h3>invio</h3>
+                <input type="submit">
+            </tbody>
+        </table></center>
+      </form>
+      
