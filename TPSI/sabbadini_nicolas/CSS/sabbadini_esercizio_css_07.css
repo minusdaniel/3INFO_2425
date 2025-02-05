@@ -2,40 +2,43 @@
     color: blue;
 }
 .hr1{
-    color: red;
+    color: green;
 }
 .hr3{
-    color: red;
+    color: green;
 }
 .hr5{
-    color: red;
+    color: green;
 }
 .hr2{
-    color: green;
+    color: red;
 }
 .hr4{
-    color: green;
+    color: red;
 }
 .hr6{
-    color: green;
+    color: red;
 }
 .pr1{
-    color: grey;
+    color: orange;
 }
 .pr3{
-    color: grey;
+    color: orange;
 }
 .pr5{
-    color: grey;
+    color: orange;
 }
 .pr2{
-    color: orange;
+    color: grey;
 }
 .pr4{
-    color: orange;
+    color: grey;
 }
 .pr6{
-    color: orange;
+    color: grey;
+}
+p{
+    color: black;
 }
 p{
     color: black;
